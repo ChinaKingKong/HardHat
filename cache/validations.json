@@ -1,0 +1,217 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:Initializable": {
+        "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:57",
+        "inherit": [],
+        "libraries": [
+          "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol:AddressUpgradeable"
+        ],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_initialized",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint8",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+              "retypedFrom": "bool"
+            },
+            {
+              "label": "_initializing",
+              "offset": 1,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_uint8": {
+              "label": "uint8",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      },
+      "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol:AddressUpgradeable": {
+        "src": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol:9",
+        "version": {
+          "withMetadata": "0760777f7d653371edaf33ebc6ba340cbf790eec92513ffaf032a9cb4be3617a",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false
+        },
+        "solcVersion": "0.8.4"
+      },
+      "contracts/MyContract.sol:MyContract": {
+        "src": "contracts/MyContract.sol:6",
+        "version": {
+          "withMetadata": "6ec5a6da1050c7d462789dbbacbf256801141c01dea4314744c7eb55f8cb13a4",
+          "withoutMetadata": "1d6884f19ff09908ea714c0b958a8cf13a3620ebf373e9590b5705ec1caa08b3",
+          "linkedWithoutMetadata": "1d6884f19ff09908ea714c0b958a8cf13a3620ebf373e9590b5705ec1caa08b3"
+        },
+        "inherit": [
+          "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)",
+          "getStateVariable()",
+          "setStateVariable(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_initialized",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint8",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+              "retypedFrom": "bool"
+            },
+            {
+              "label": "_initializing",
+              "offset": 1,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+            },
+            {
+              "label": "constantValue",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_uint256",
+              "contract": "MyContract",
+              "src": "contracts/MyContract.sol:7"
+            },
+            {
+              "label": "_stateVariable",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "MyContract",
+              "src": "contracts/MyContract.sol:8"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            },
+            "t_uint8": {
+              "label": "uint8",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      },
+      "contracts/MyContractV2.sol:MyContractV2": {
+        "src": "contracts/MyContractV2.sol:6",
+        "version": {
+          "withMetadata": "3bcc0094fadf5bdbe0c608b7f7df7a50d3f48ff0318a084b43ad7ef6cc49a491",
+          "withoutMetadata": "8cf311cb048577763825f990dd1db3110a1b29e8662a4dde0c664e2661edfba6",
+          "linkedWithoutMetadata": "8cf311cb048577763825f990dd1db3110a1b29e8662a4dde0c664e2661edfba6"
+        },
+        "inherit": [
+          "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)",
+          "getStateVariable()",
+          "setStateVariable(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_initialized",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint8",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+              "retypedFrom": "bool"
+            },
+            {
+              "label": "_initializing",
+              "offset": 1,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+            },
+            {
+              "label": "constantValue",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_uint256",
+              "contract": "MyContractV2",
+              "src": "contracts/MyContractV2.sol:7"
+            },
+            {
+              "label": "_stateVariable",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "MyContractV2",
+              "src": "contracts/MyContractV2.sol:8"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            },
+            "t_uint8": {
+              "label": "uint8",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      }
+    }
+  ]
+}
